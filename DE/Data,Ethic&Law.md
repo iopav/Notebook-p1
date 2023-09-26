@@ -342,3 +342,160 @@ Should technology evolve so fast? In the absence of interests drivers, they usua
 We discussed about the concept of responsibility for automated decisions in data science, which is the ethical and moral obligation to ensure that algorithms and machine learning models are fair, transparent, and accountable for their impacts on people and society. We also discussed why responsibility is important in data science, as automated decisions can have significant real-world consequences, such as job hiring, loan approvals, and criminal justice. Then we listed some ethical considerations in responsibility for automated decisions, such as bias and fairness, transparency, accountability, and data privacy. 
 
 We provided some examples of how to implement responsibility in data science projects, such as data collection, algorithm development, transparency, testing and validation, and continuous monitoring. Finally, we acknowledged some challenges in achieving responsibility for automated decisions, such as bias in data, algorithm complexity, regulatory compliance, balancing trade-offs, ethical dilemmas, and resource constraints. We concluded by stating that responsibility for automated decisions in data science is an ongoing effort that requires collaboration between different stakeholders.
+
+### 2023年9月14日
+
+- **Amazon’s sexist AI recruiting tool**: This article describes how Amazon developed an AI tool to evaluate job candidates’ resumes, but found that it showed bias against women.
+- **The pitfalls of AI projects**: The article analyzes the possible causes of Amazon’s failure, such as vague business objectives, self-selection bias, keyword-based features, and inappropriate target and cost function.
+- **The lessons learned from Amazon’s failure**: The article suggests that AI projects are complex and involve more than technical issues. It argues that data scientists and engineers need to work closely with business stakeholders and consider the ethical and social implications of their design decisions.
+
+
+
+AI评估简历是否合理？
+
+- 用ai评估简历，不等同于用ai评估人的价值。
+- 用ai来评估人的是否适合这个岗位。是合理的。只是评估这个岗位和人是否匹配，是一个相关性。
+- 只有人才能评价人，通过沟通来评价。这个ai只是一个初筛。用ai来筛选简历的初衷没有问题，但是结果不好，是ai训练的问题。初筛简历不是价值衡量，只是相关性匹配。
+- 如果ai是一个得到公认的ai，那么它产出的评价label会成为大部分人认可的评价。
+
+人的评价也有偏见，为什么AI的评价不能有偏见？
+
+AI的评价会成为他人的参考，先入为主的印象，AI的影响力会随着AI的人为给予的可信度而迅速增长。但是人的评价是个体的，不会成为一个benchmark。
+
+我们不该讨论这个ai本身的问题，而是讨论这个ai引发的问题。ai本身没有道德立场，我们利用ai的目的也是没有道德问题的，出发点是正确的。但是结果却又伦理偏差。这个问题的源头是数据输入的问题。
+
+完美的数据集不存在
+
+ai bias 就其本质，就是一个人与人之间的偏见问题。
+
+我们不能因为 ai 模仿了人们的偏见而谴责ai，根源不在于算法，而在于人。
+
+就算ai不惩罚女性简历，在接下来的筛选过程中，仍然无法保证她们不会因为性别而被惩罚。
+
+ai撕破了求职市场表面公平的面纱，透露出其中带有偏见的本质。
+
+
+
+
+
+
+
+Does it make sense for AI to evaluate resumes?
+
+- Evaluating resumes with ai is not the same as evaluating people's value with ai.
+- Using ai to assess the person's suitability for the position. It is reasonable. It is just a correlation assessing whether the position and the person are a good match.
+- Only human can evaluate the value, through communication. This ai is just a preliminary screening. There is no problem with the original intent of using ai to screen CVs, but the bad results are a problem with the ai training. The initial screening of CVs is not a measure of value, just a relevance match.
+- If the ai is widely recognized , then the evaluation labels it produces will be the ones most people recognize.
+
+Human evaluations are also biased, why can't AI evaluations be biased?
+
+AI's evaluation will become the baseline or benchmark of others, the preconceived impression, AI's influence will grow rapidly with AI's human given credibility. But human evaluation is individual and will not be a BENCHMARK.
+
+it is not the problem of this AI itself, but the problem caused by this AI. ai itself has no ethical position, and our purpose of using ai is also no ethical problem, the starting point is correct. But the result is ethical bias. The source of this problem is the problem of data input.
+
+Perfect data sets do not exist
+
+ai bias is, by its very nature, a problem of interpersonal bias.
+
+We can't condemn ai for performing people's biases; the root cause is not in the algorithm, but in the people.
+
+Even if ai doesn't penalize women's CVs, there's still no guarantee that they won't be penalized on the basis of their gender in the subsequent screening process.
+
+AI tears through the veil of apparent fairness in the job market and reveals the biased nature of it.
+
+
+
+The widespread use of algorithms gives them a degree of publicness. Uniform ethical decisions magnify the impact of individual decisions. When algorithms from different fields are combined into an algorithmic system, the impact on individuals and society becomes global.
+
+算法的广泛使用使其一定程度上具备了公共性。统一的伦理决定放大了个别决策的影响。当不同领域的算法组合成为一个算法系统时，对个人、社会的影响就变成全局性的了。
+
+Why do seemingly neutral data samples instead derive discriminatory results? In fact, contrary to what most people think, **data in the context of AI is not completely objective and neutral, because both the collection, selection and use of data are selected and participated by people. In processing the data, engineers are required to make a variety of judgements, which are often subjective.** 
+
+we will use an analogy to illustrate our main points. Imagine that AI is like a mirror that reflects our faces. If the mirror is distorted, dirty, or broken, it will not show us an accurate or flattering image of ourselves. Similarly, if the data and algorithms that train AI are biased, incomplete, or flawed, they will not produce fair or reliable results for us. Moreover, if we use the mirror as the only source of information about ourselves, we will miss out on other aspects of our identity and personality that the mirror cannot capture. Likewise, if we use AI as the only criterion for evaluating resumes, we will overlook other factors that may affect the suitability and potential of job candidates that AI cannot measure.
+
+Understanding the ways in which humans are involved in the workings of AI is therefore essential. How to embed ethics in machines, what kind of ethical principles to embed, and what are the typical ethical issues are also of interest.
+为什么看似中立的数据样本反而会导出歧视性结果？其实，与多数人的想象不同，人工智能语境下的数据并不完全客观中立，因为无论是数据的采集、选择和使用，均有人的挑选和参与。在对数据进行处理的过程中，工程师们需要作出各种判断，而这些判断常常是主观的。因此，了解人类以何种方式参与人工智能运作就显得十分必要。如何在机器中嵌入伦理、嵌入何种伦理原则、典型的伦理问题有哪些，也是我们要关注的内容。
+
+#### summary
+
+We discusses the ethical and social implications of using AI to evaluate resumes for job candidates. It argues that AI is not a neutral or objective tool, but rather a reflection of human biases and judgments that are embedded in the data and algorithms. 
+
+AI can have a significant impact on individuals and society, especially when it is used as a benchmark or a public standard. We suggests that we should be critical and responsible for the creation, application, and impact of AI, and not rely on it as a substitute for human judgment. 
+
+We are exploring the ethical and social implications of using AI to evaluate resumes for job candidates. We challenge the assumption that AI is a neutral or objective tool, but rather a reflection of human biases and judgments that are embedded in the data and algorithms. We also alert that AI can have a significant impact on individuals and society, especially when it is used as a benchmark or a public standard. We propose that we should be critical and responsible for the creation, application, and impact of AI, and not rely on it as a substitute for human judgment. We also raise some questions about how to embed ethics in machines, what kind of ethical principles to embed, and what are the typical ethical issues that arise from using AI to evaluate resumes.
+
+we will use an analogy to illustrate our main points. Imagine that AI is like a mirror that reflects our faces. If the mirror is distorted, dirty, or broken, it will not show us an accurate or flattering image of ourselves. Similarly, if the data and algorithms that train AI are biased, incomplete, or flawed, they will not produce fair or reliable results for us. Moreover, if we use the mirror as the only source of information about ourselves, we will miss out on other aspects of our identity and personality that the mirror cannot capture. Likewise, if we use AI as the only criterion for evaluating resumes, we will overlook other factors that may affect the suitability and potential of job candidates that AI cannot measure.
+
+Therefore, we suggest that we should not trust or reject AI blindly, but rather question its assumptions, methods, and outcomes. We should not blame or praise AI, but rather hold ourselves accountable for its creation, application, and impact. We should not rely or depend on AI, but rather use it as a supplement, not a substitute, for human judgment.
+
+#### topic in slides
+
+### 2023年9月21日
+
+This paper suggests that the increased  interest in human factors among engineers reflects the irony that  the more advanced a control system is, so the more crucial may be  the contribution of the human operator. 
+
+idea：
+
+The refinement of the control system has stripped away unnecessary parts of the people management system, so that the remaining roles seem important because they were important in the first place, just wrapped up in an overcrowded system
+
+ The  second irony is that the designer who tries to eliminate the  operator still leaves the operator to do the tasks which the  designer cannot think how to automate.
+
+ques:
+
+How can human operators maintain their manual and cognitive skills in highly automated systems, and what kind of training and practice do they need?
+
+Is this really the brave new world we want?
+
+Is there any dignity in this kind of work?
+
+ advanced a control system 
+
+Human beings would be considered as sensors of AI/CS in a highly automated society. For example, humans can provide feedback, input, or supervision to AI/CS systems, at the same time they can be manipulated, monitored, or influenced by AI/CS systems in a invisible way.
+
+How can humans ensure that they are not deprived of their dignity by control systems?
+
+```
+AI systems should empower human dignity by enhancing human capabilities, skills, and opportunities. 
+```
+
+
+
+- One might argue that there is **no dignity** in this kind of work, because it involves **deskilling**, **monitoring**, and **replacing** human operators with automated systems. This may reduce the operator’s **status**, **motivation**, and **satisfaction**, and increase their **stress**, **workload**, and **error**. The operator may also lose their **manual** and **cognitive skills**, and become dependent on or distrustful of the computer. The operator may feel that they have no meaningful role or contribution in the system, and that they are not respected or valued by the designers or managers.
+- Another might argue that there is **some dignity** in this kind of work, because it still requires the operator to have **knowledge**, **judgement**, and **responsibility** for the system. The operator may still be involved in **supervising**, **adjusting**, **maintaining**, or **improving** the system, or in dealing with **abnormal** or **emergency** situations. The operator may also benefit from the **support** and **aiding** of the computer, which can enhance their **capabilities**, **performance**, and **safety**. The operator may feel that they have a complementary role or collaboration with the computer, and that they are recognized or rewarded by the designers or managers.
+
+Ultimately, the dignity of this kind of work may depend on how the automation is designed, implemented, and evaluated, and how the human factors are considered and addressed. Some possible ways to improve the dignity of this kind of work are:
+
+- Developing and applying ethical principles and guidelines for the automation of industrial processes.
+- Adopting a human-centered approach to automation, which puts human dignity at the core of AI ethics and governance, and ensures that AI systems are aligned with human values and rights, and serve the common good of humanity.
+- Designing better interfaces and displays for human-computer collaboration, which respect and promote the diversity, preferences, and goals of human operators, and facilitate their participation, empowerment, and feedback.
+- Providing adequate training and practice for human operators to maintain their manual and cognitive skills, and to cope with complexity, uncertainty, and change in automated systems.
+- Enhancing the job content and quality of human operators by enriching their tasks, increasing their autonomy and control, and offering them opportunities for learning and development.
+
+#### summary
+
+
+
+The content discusses the **ironies** and **challenges** of automation in industrial processes, and how it affects the role and dignity of human operators. It argues that automation can have both **positive** and **negative** impacts on human operators, depending on how it is designed, implemented, and evaluated. It also raises some **questions** about how human operators can maintain their skills, cope with complexity, and ensure their dignity in highly automated systems. It suggests some possible ways to improve the human-computer collaboration, such as ethical principles, human-centered approach, better interfaces, adequate training, and job enrichment.
+
+
+
+
+
+- It discusses the problems and challenges of automation in industrial processes, and how it affects the role and dignity of human operators.
+- argues that automation can have both positive and negative impacts on human operators, depending on how it is designed, implemented, and evaluated. It also raises some questions about how human operators can maintain their skills, cope with complexity, and ensure their dignity in highly automated systems.
+-  identifies two main ironies of automation:
+  - The first irony is that the system designers may view the human operator as unreliable and inefficient, and try to eliminate them from the system. However, this may result in leaving the operator with the tasks that are too difficult or unpredictable to automate, and without adequate support or training for them.
+  - The second irony is that the system designers may expect the human operator to monitor and take over the automated system when it fails. However, this may require the operator to have more skill and knowledge than before, which may deteriorate due to lack of practice and feedback.
+- suggests some possible solutions to these problems, such as:
+  - Providing artificial assistance and alarms for monitoring the automated system and detecting failures.
+  - Allowing the operator to use manual control for a short period in each shift or on a simulator to maintain their manual and cognitive skills.
+  - Developing ethical principles and guidelines for automation of industrial processes.
+  - Adopting a human-centered approach to automation, which puts human dignity at the core of AI ethics and governance.
+  - Designing better interfaces and displays for human-computer collaboration, which respect and promote the diversity, preferences, and goals of human operators.
+- also introduces some aspects of human-computer collaboration in on-line control, such as:
+  - Giving instructions or advice to the operator, or mitigating their errors.
+  - Providing software-generated displays that are compatible with different types of operator skill and task complexity.
+  - Relieving human workload by adapting computer aiding to human attention and performance.
+
+ It suggests some possible ways to improve the human-computer collaboration, such as ethical principles, human-centered approach, better interfaces, adequate training, and job enrichment.
+

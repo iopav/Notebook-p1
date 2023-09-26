@@ -1,4 +1,7 @@
+
+
 ## Model
+
 #### definition
 - abstraction: remove detail, focus in viewpoint
 - dynamic
@@ -13,6 +16,21 @@
 #### difference between product
 
 ### UML
+
+- component diagram组件图
+  - context type
+- use case diagram用例图
+  - interaction type
+- sequence diagram时序图
+  - interaction type
+- class diagram类图
+  - structure type
+- state diagram状态图
+  - behavior type
+- activity diagram活动图
+  - behavior type
+- 
+
 ```mermaid
 graph LR
 ac[action]
@@ -67,6 +85,48 @@ top down
 
 bottom up
 
+层级结构模型
+
 MCV-jsp框架
 
 driver属于m的扩展
+
+
+
+```
+component in master slave structure. 
+
+master slave structure sim and diff with layered structure.
+
+example of software application of master slave structure.
+
+
+```
+
+
+
+
+
+
+
+### 2023年9月18日
+
+BDD>TDD
+
+
+
+test suite - a set of tests run together for a single purpose
+
+test case - consists on :
+
+- procedure
+- test data
+- exp outcome
+- exp behavior 
+
+the oracle problem
+
+correct answer - flexible
+
+
+
