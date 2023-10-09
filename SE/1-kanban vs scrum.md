@@ -97,35 +97,6 @@ sprint review and retropective
 
 
 ### scrum vs kanban
-Scrum:
-
-Task and User Story Management:
-
-Product Backlog: Tasks and user stories are generated and managed in a prioritized list called the Product Backlog. This list contains all the work items that need to be done for the project.
-Sprint Backlog: At the beginning of each sprint, a subset of user stories from the Product Backlog is selected and moved into the Sprint Backlog. These user stories are broken down into tasks that the development team can complete within the sprint.
-Interaction with the Board:
-
-Product Owner: The Product Owner is responsible for maintaining and prioritizing the Product Backlog. They interact with the board to add, remove, or update user stories based on stakeholder feedback and changing priorities.
-Development Team: The development team interacts with the Sprint Backlog during the daily Scrum meetings to update the status of tasks, discuss progress, and identify any obstacles or impediments.
-Scrum Master: The Scrum Master facilitates Scrum events, including the daily standup, and helps the team overcome any impediments. They also ensure that the team follows the Scrum framework and principles.
-Sprint Cycle:
-
-Scrum follows a fixed sprint cycle, typically 2-4 weeks in duration. At the end of each sprint, a potentially shippable product increment is delivered, and a new sprint begins.
-Kanban:
-
-Task and User Story Management:
-
-In Kanban, there is no fixed backlog or sprint backlog. Work items, including tasks and user stories, are managed in a continuous flow on the Kanban board.
-There are typically three main columns on a Kanban board: "To Do," "In Progress," and "Done." Work items are moved through these columns as they progress.
-Interaction with the Board:
-
-Team Members: All team members interact with the Kanban board by pulling tasks from the "To Do" column into the "In Progress" column when they have capacity. They also move tasks to the "Done" column when completed.
-No Fixed Roles: Kanban does not prescribe specific roles like Scrum. Instead, it encourages collaboration and flexibility among team members.
-Sprint Cycle:
-
-Kanban does not have fixed sprint cycles. Work is continuously pulled into the "In Progress" column as capacity allows, and items are completed and moved to "Done" as soon as they are finished.
-Key Differences:
-
 Scrum uses fixed-length sprints with predefined goals, while Kanban is more flexible and allows for continuous flow.
 Scrum has distinct roles (Product Owner, Scrum Master) and events (Sprint Planning, Daily Scrum), whereas Kanban is less prescriptive about roles and events.
 Scrum prioritizes a fixed set of user stories for each sprint, while Kanban focuses on managing the flow of work items without predefined iterations.
@@ -159,3 +130,6 @@ D((圆形))
 带箭头加粗线段 ==>
 不带箭头线段 ---
 ```
+
+
+

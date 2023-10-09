@@ -499,3 +499,49 @@ The content discusses the **ironies** and **challenges** of automation in indust
 
  It suggests some possible ways to improve the human-computer collaboration, such as ethical principles, human-centered approach, better interfaces, adequate training, and job enrichment.
 
+### 2023年9月29日
+
+- **GDPR and social network research**: The article examines the impact and implications of the General Data Protection Regulation (GDPR) on the activities of researchers engaging in social network analysis, especially online social networks. **GDPR** is a European law that regulates the processing of personal data and aims to protect the rights and freedoms of individuals. **Social network analysis** is a research field that studies the structure and dynamics of social relations using network data.
+- **GDPR concepts and principles**: The article introduces the main concepts and principles of the GDPR, such as data subject, data controller, data processor, personal data, processing, profiling, data protection officer, lawful basis for processing, and research exemptions. The article explains how these concepts and principles apply to different types of social network research projects and actors.
+- **GDPR in the social network analysis process**: The article discusses the practical enactment of the GDPR principles along the main steps and problems of a typical social network analysis process. The article covers aspects such as data collection, consent, anonymization, profiling, storage, and secondary use of network data. The article also highlights some controversial and unclear issues that may arise when applying the GDPR to social network data.
+
+- **GDPR and social network analysis challenges**: The article identifies and analyzes the main challenges and open questions that social network researchers face when dealing with the GDPR. The article categorizes these challenges into three types: **conceptual**, **methodological**, and **organizational**.
+- **Conceptual challenges**: The article discusses how the GDPR affects the definition and scope of social network data, and how it impacts the ethical and legal aspects of social network research. The article also examines the tensions and trade-offs between data protection and scientific freedom, and between individual rights and collective interests.
+- **Methodological challenges**: The article explores how the GDPR influences the design and implementation of social network analysis methods, techniques, and tools. The article focuses on issues such as data quality, validity, reliability, reproducibility, and innovation. The article also considers the implications of the GDPR for different types of social network data sources, such as online platforms, mobile devices, sensors, and public records.
+- **Organizational challenges**: The article investigates how the GDPR affects the governance and management of social network research projects and activities. The article covers aspects such as data security, privacy by design, data protection impact assessment, data sharing, collaboration, and dissemination. The article also reviews the roles and responsibilities of different actors involved in social network research, such as researchers, data controllers, data processors, data subjects, ethics committees, and supervisory authorities.
+
+How can social network researchers ensure transparency and accountability when processing personal data, especially when using online sources or large-scale datasets?
+
+2 PDF from page 8 to 11:
+
+- **Data protection by design and by default (Article 25)**: The article explains how the Board failed to implement data protection by design and by default principles when processing biometric data for attendance monitoring. The Board did not consider the risks and impacts of the processing, nor did it adopt appropriate technical and organizational measures to ensure data protection. The Board also did not limit the processing to what was necessary and proportionate for the purpose.
+- **Security of processing (Article 32)**: The article describes how the Board did not ensure a sufficient level of security for the processing of biometric data. The Board did not encrypt or pseudonymize the data, nor did it prevent unauthorized access, disclosure, alteration, or loss of the data. The Board also did not conduct a regular testing or evaluation of the security measures.
+- **Data protection impact assessment (Article 35)**: The article discusses how the Board did not carry out a data protection impact assessment before processing biometric data for attendance monitoring. The Board did not identify and assess the risks and impacts of the processing on the rights and freedoms of the students, nor did it consult with the Swedish Data Protection Authority or seek the views of the students or their legal guardians.
+- **Administrative fine (Article 83)**: The article concludes with the decision of the Swedish Data Protection Authority to impose an administrative fine on the Board for violating several provisions of the GDPR. The fine amounts to SEK 200,000 (approximately EUR 18,700) and is based on the nature, gravity, duration, and scope of the infringement, as well as the degree of responsibility, cooperation, and previous violations of the Board.
+
+ **Attendance  monitoring can be carried out in other ways which involve less infringement of the students’ integrity.**
+
+
+
+
+
+````
+One of the challenges of the digital age is how to balance the rights and interests of different stakeholders when it comes to personal data. The European Union has adopted the General Data Protection Regulation (GDPR) as a legal framework to protect the privacy and security of its citizens' data. However, this regulation also imposes some limitations and obligations on other countries and entities that want to interact with the EU market or access its information.
+
+For example, some countries may want to combine their data protection laws with the EU's GDPR, or even integrate it into their constitution. This would require a high level of alignment and harmonization between the different legal systems and cultures. It would also entail a significant investment in resources and infrastructure to comply with the GDPR standards and requirements.
+
+On the other hand, some entities may choose to block or limit the content and services they offer to the EU, because they do not want to deal with the GDPR or respect its principles. This would reduce the information accessibility and diversity for the EU citizens, as well as the potential benefits and opportunities for the entities themselves.
+
+The GDPR is based on a high moral standard of data protection, which reflects the values and expectations of the European society. It recognizes that people have the right to control their own data and how it is used by others, such as governments or companies. It also acknowledges that data can be a valuable asset for improving public services, social welfare, innovation and economic growth.
+
+However, applying this standard in practice is not easy or straightforward. There are many dilemmas and trade-offs involved in balancing different values and interests, such as public interest versus private interest, anonymity versus transparency, security versus freedom, etc. Moreover, there are different perspectives and opinions on what constitutes a fair and legitimate use of data, depending on the context, purpose and consent of the data subjects.
+
+One of the main applications of data protection is in the media industry, which relies heavily on personal data to create and distribute content, as well as to generate revenue from advertising or subscriptions. The GDPR requires that media companies obtain explicit and informed consent from their users before collecting and processing their data. It also obliges them to be transparent and accountable about how they use the data and what benefits they provide to their users.
+
+However, some media companies may find these requirements too strict or burdensome, especially if they operate in multiple jurisdictions or markets. They may argue that the GDPR is a leftover law from a pre-digital era, which does not reflect the realities and dynamics of the online world. They may also claim that the GDPR hinders their creativity, innovation and competitiveness, as well as their ability to serve their customers' needs and preferences.
+
+On the other hand, some users may welcome the GDPR as a way to protect their rights and interests in the digital environment. They may appreciate being more informed and empowered about how their data is used and what choices they have. They may also value having more control and transparency over their online identity and reputation, as well as their exposure to unwanted or harmful content.
+
+The GDPR is a complex and ambitious regulation that aims to address one of the most pressing issues of our time: how to ensure a fair and ethical use of personal data in a globalized and interconnected world. It is not perfect or flawless, but it is a step forward in establishing a common standard and framework for data protection across the EU and beyond. It is also a challenge and an opportunity for all stakeholders involved to rethink and improve their practices and policies regarding data governance.
+````
+

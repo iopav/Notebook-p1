@@ -1,12 +1,13 @@
 .ipynb_checkpoints
 
+/AOS/1MS041-2023-main
 /AOS/2023-09-05/first_lecture_and_data/data
 /AOS/2023-09-05/first_lecture_and_data/images
 /AOS/all-of-statistics-uu/data
-*.png
 *.jpg
 *.zip
 *.tgz
 *.gif
 *.pdf
 *.txt
+*.docx
