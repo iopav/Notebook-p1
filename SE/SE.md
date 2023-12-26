@@ -17,9 +17,13 @@
 
 SE is about processes to create software. Concerned with theories, methods and tools.
 
+Constrains
+
+Time–Money–Organization
+
 ### Process-based approach to Quality 
 
-#### *ACO
+#### *ACO X
 
 **Assumptions**: quality of product is measurable
 
@@ -72,7 +76,7 @@ takes the fundamental process activities as separate process phases.
 
 plan-driven process:
 
-​	plan and schedule all of the process activities before starting development
+​	plan and schedule all of the process activities before starting development, Progress measured against plan
 
 Stages:
 
@@ -147,6 +151,8 @@ plan>>build>>test>>done
 ### waterfall
 
 plan>>build>>test>>review>>deploy
+
+plan before activities
 
 lag behind market requirements
 Product planning must be done before any subsequent work, and in most cases the planning process does not fully understand the project
@@ -234,7 +240,16 @@ scrum is the complete agile methodology, kanban is a tool
 
 Agile emerged as a solution to the problems encountered with traditional project management methods
 
-##### 
+### V Model vs. Waterfall
+
+| v                                                         | w                                           |
+| --------------------------------------------------------- | ------------------------------------------- |
+| carers about quality from the begining                    | checks quality in the middle of the process |
+| easier to correct mistakes(go back to earlier activities) | do not go to the previous activity          |
+|                                                           |                                             |
+| both plan driven                                          |                                             |
+
+
 
 ### Combination
 
@@ -367,7 +382,7 @@ The total requirements effort might not be much different for projects of compar
 
 #### output of req development
 
-A common understanding of the needs of stakeholders.
+Developers have a common understanding of the needs of stakeholders.
 
 #### method
 
@@ -477,7 +492,11 @@ delivered by a separate server. Clients are users of these services and access s
 
 ![image-20231008131041674](SE.assets/image-20231008131041674.png)
 
-#### master-slave
+#### *master-slave
+
+
+
+if one or more slaves die, the master can keep working
 
 - dedicated processes(slaves)
 - great for real-time systems
@@ -488,8 +507,7 @@ delivered by a separate server. Clients are users of these services and access s
 
 A traffic control system in a city has three logical processes that run on separate processors. 
 
-The master process is the control room process, which communicates with separate slave processes that are responsible for collecting traffic data and managing the operation of 
-traffic lights.
+The master process is the control room process, which communicates with separate slave processes that are responsible for collecting traffic data and managing the operation of traffic lights.
 
 #### Distributed component 
 
@@ -728,13 +746,15 @@ product usable?(validation)
 
 To check the normal operation of the system/component
 
+Steps: estabilish the operation profile. construct test data reflecting the operational profile(statistically), test, compute the reliability after a statistically significant number of failures
+
 #### Requires
 
 Test data reflecting the normal operation, Statistical randomized method
 
 ### PerformanceTest(System)
 
-#### Stress test 
+#### Stress test - verification
 
 (how system handles increasing / extreme  load)
 
@@ -742,14 +762,22 @@ Graceful degrading / total collapse
 
 Many reveal defects 
 
-#### Load test (profiling)
+answer: some numbers
+
+#### Load test (profiling) - validation
 
 Ex: 10% code takes 90% of the time
+
+find bottleneck in the code
+
+answer to load test : yes or no?
 
 ### IntegrationTest(Interface)
 
 - Top-down vs. Bottom-up 
 - Needs mocks for unfinished parts
+
+
 
 ### ReusabilityTest (System/Component)
 
@@ -759,7 +787,7 @@ Back-to-back testing
 
 Regression tests
 
-- Applies to allking of tests
+- Applies to all kinds of tests
 - Rerun a test suite for every change in the system/component
 - Goal: did the change break anything?
 
@@ -887,13 +915,90 @@ An important aspect ofeffective teamwork entails understanding group  dynamics i
 
 ### Models
 
-Tuckman Team Model
+#### *Tuckman Team Model
 
-GRIP Model
+Describes the 4+1 stages teams pass while moving from  organizingto producing.
+
+Stages are not linear. Teams move back and forward  based on
+
+- Events influencing the team (e.g., conflict resolution)
+
+- Communication strategie
+
+<img src="SE.assets/image-20231009135812858.png" alt="image-20231009135812858" style="zoom:50%;" />
+
+1. Forming组织阶段
+
+   know each other, make good impression, create shared expectations, guidelines, boundaries
+
+2. Storming
+
+   preliminary boundaries and expectations are challenged, learn about each other’s motivation
+
+3. Norming
+
+   conflicts solved, teammates have proved flexible. everyone knows its role and works on their part of the project.
+
+   problems: does not understand their role. expectation is unclear. overall goal is unclear.
+
+   risk to go back to forming and storming.
+
+   group cohesion ensures everyone is responsible to the task and to each other
+
+4. Performing
+
+   developed a synergy after working together long enough, processes in place
+
+5. Adjourning
+
+   go each on our ways
+
+
+
+#### *GRIP Model
+
+<img src="SE.assets/image-20231009140225273.png" alt="image-20231009140225273" style="zoom:50%;" />
+
+- outlines  interrelated components of highly effective teamwork
+- each component influences the following (clockwise
+
+Goals: everyone must understand and be fully committed to the goals and the organization
+
+individual goals must be aligned to establish: trust, make progress, achieve outcomes
+
+Roles: everyone in team knows
+
+- what part they play
+- what is expected
+- how they are going to be held accountable/responsible
+
+Interpersonal: 
+
+high quality of communication and collaboration to increase trust
+
+sensitivity and flexibility to deal with conflict and to make progress
+
+processes:
+
+defined systems for  how decision are made, how the teams solves problems and addresses conflicts
+
+defined systems and procedures for completing the project
+
+#### *Comparison
+
+| T                                       | G                             |
+| --------------------------------------- | ----------------------------- |
+| group                                   | do not have phases of a group |
+| communication focus on different things |                               |
+| both have an overall goal               |                               |
+
+
 
 ## Exe1
 
-### During the course we discussed some software engineering processes (Waterfall, V-model, etc.). What are desirable properties for a process?
+### 1
+
+During the course we discussed some software engineering processes (Waterfall, V-model, etc.). What are desirable properties for a process?
 
 Feedback:
 
@@ -909,7 +1014,9 @@ So that the process gives good results, it should be reliable, and rapid (other 
 Note: some answers start to explain the V-model, or the phases requirements, design, ... and so on. That is not answering the question
 ```
 
-### What are the advantages of the V-Model, compared to other Software Engineering process models?
+### 2
+
+What are the advantages of the V-Model, compared to other Software Engineering process models?
 
 ```
 General Feedback
@@ -924,7 +1031,9 @@ The V-model has a testing focus. System and integration test plans can be made b
 NOTE: similar questions or reflections can be derived from the other processes we discussed in class.
 ```
 
-### Explain the concepts of Validation and Verification, then describe how both can be done.
+### 3
+
+Explain the concepts of Validation and Verification, then describe how both can be done.
 
 ```
 General Feedback
@@ -945,7 +1054,9 @@ Documents are signed by the project manager and the customer.
 In general, relating V&V with testing and inspection is always a good way to answer the question.
 ```
 
-### The following diagram details a particular process, in UML, that we have discussed in class. Take a look at the picture and:
+### 4
+
+The following diagram details a particular process, in UML, that we have discussed in class. Take a look at the picture and:
 
  
 
@@ -963,7 +1074,9 @@ As engineers our goal is to standarize good processes so we can be more efficien
 This is an important process because has an assumption - that good quality products can only be achieved following good quality processes - that sometimes might not be true.
 ```
 
-### Below you can find some attributes. Some of them are valid measures to assess the quality of a product. Which ones?
+### 5
+
+Below you can find some attributes. Some of them are valid measures to assess the quality of a product. Which ones?
 
 ```
 Incorrect answer:
@@ -981,11 +1094,15 @@ Well documented
 
 ```
 
-### What is the relation between models and prototypes? Choose the most accurate sentence
+### 6
+
+What is the relation between models and prototypes? Choose the most accurate sentence
 
 All prototypes are also models
 
-### Below you can find a series of requirements. Choose the ones that are correctly categorized and properly written.
+
+
+Below you can find a series of requirements. Choose the ones that are correctly categorized and properly written.
 
 ```
 General Feedback
@@ -1022,7 +1139,9 @@ Good!
 Non-functional requirements talk about quality and must be testable. 
 ```
 
-### What is the best physical architecture for real-time applications? Can you explain in your own words how it works?
+### 7
+
+What is the best physical architecture for real-time applications? Can you explain in your own words how it works?
 
 ```
 General Feedback
@@ -1036,4 +1155,40 @@ How resilient is the system to network cuts and failures in the slaves,
 
 What are the consequences of having a failure in the master.
 ```
+
+## Final 1
+
+ 4.a (2/5 points) What are the components that define a master-slave architecture? For each component , provide a definition using as an  example a software application.
+
+```
+master, slave, clients
+def of each component//TODO
+
+Master: 
+Slave:
+Clients
+
+what thing is, not doing.
+
+e.g. netflix
+```
+
+ 4.b (3/5 points) Would it be reasonable to use a layered architecture in combination with a master-slave architecture? Justify your answer with an example or a counterexample.  
+
+```
+the master has a layer of database
+
+the data should go through all the layers and go back in layer achitrecture
+
+L-A is software architecture = logical architecture
+
+```
+
+*7.a (3/8 points) Explain step by step the process of requirements engineering, with special emphasis on which actors and/or stakeholders are responsible for each step of the process and what are their responsibilities. (will in the exam)
+
+
+
+*go to student office ask for previous examination second floor
+
+*Q&A availble 2 days before exam
 
